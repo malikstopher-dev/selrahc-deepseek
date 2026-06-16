@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "process": "Processus",
+    "about": "À Propos",
+    "contact": "Contact",
+    "quote": "Demander un Devis"
+  },
+  "hero": {
+    "title": "Architecture Contemporaine",
+    "subtitle": "Concevoir des espaces qui inspirent, perdurent et transforment",
+    "cta": "Voir Notre Portfolio",
+    "contact": "Nous Contacter"
+  },
+  "home": {
+    "featured_title": "Projets en Vedette",
+    "featured_subtitle": "Une sélection curated de nos meilleures œuvres architecturales",
+    "services_title": "Notre Expertise",
+    "services_subtitle": "Services architecturaux complets, de la conception à la réalisation",
+    "process_title": "Notre Processus",
+    "process_subtitle": "Un parcours collaboratif de la vision à la réalité",
+    "cta_title": "Créons Ensemble",
+    "cta_subtitle": "Vous avez un projet en tête ? Nous serions ravis d'en entendre parler.",
+    "cta_button": "Lancez Votre Projet"
+  },
+  "portfolio": {
+    "title": "Notre Portfolio",
+    "subtitle": "Une collection de projets résidentiels, commerciaux et d'architecture d'intérieur",
+    "all": "Tous les Projets",
+    "residential": "Résidentiel",
+    "interior": "Architecture d'Intérieur",
+    "commercial": "Commercial",
+    "renovation": "Rénovations",
+    "view_project": "Voir le Projet"
+  },
+  "project": {
+    "overview": "Aperçu",
+    "gallery": "Galerie",
+    "prev": "Projet Précédent",
+    "next": "Projet Suivant",
+    "back": "Retour au Portfolio"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "L'excellence architecturale dans toutes les disciplines",
+    "items": [
+      {
+        "title": "Conception Architecturale",
+        "desc": "Solutions de conception innovantes adaptées à chaque contexte unique, alliant esthétique et fonctionnalité."
+      },
+      {
+        "title": "Architecture d'Intérieur",
+        "desc": "Intégration harmonieuse des espaces intérieurs et extérieurs, créant des environnements de vie équilibrés."
+      },
+      {
+        "title": "Urbanisme",
+        "desc": "Planification directrice stratégique pour les développements résidentiels et commerciaux."
+      },
+      {
+        "title": "Rénovation & Restauration",
+        "desc": "Redonner vie aux structures existantes tout en préservant l'intégrité architecturale."
+      },
+      {
+        "title": "Gestion de Projet",
+        "desc": "Supervision de bout en bout garantissant une livraison dans les délais et une qualité irréprochable."
+      },
+      {
+        "title": "Conception Durable",
+        "desc": "Architecture respectueuse de l'environnement qui réduit l'empreinte écologique."
+      }
+    ]
+  },
+  "process": {
+    "title": "Notre Processus",
+    "subtitle": "Une approche raffinée de l'excellence architecturale",
+    "steps": [
+      {
+        "title": "Découverte",
+        "desc": "Nous commençons par comprendre votre vision, votre mode de vie et vos exigences lors d'une consultation approfondie."
+      },
+      {
+        "title": "Conception du Concept",
+        "desc": "Traduire les idées en concepts architecturaux à travers des esquisses, des planches d'ambiance et des visualisations 3D."
+      },
+      {
+        "title": "Développement du Design",
+        "desc": "Affiner le concept approuvé avec des dessins détaillés, la sélection des matériaux et les spécifications techniques."
+      },
+      {
+        "title": "Documentation",
+        "desc": "Documents de construction complets, permis et dossiers d'appel d'offres pour une exécution sans faille."
+      },
+      {
+        "title": "Construction",
+        "desc": "Supervision active du chantier et coordination avec les entrepreneurs pour garantir la fidélité au design."
+      },
+      {
+        "title": "Achèvement",
+        "desc": "Inspection finale, remise des clés et soutien continu pour assurer une entière satisfaction."
+      }
+    ]
+  },
+  "about": {
+    "title": "À Propos de Selrahc Architects",
+    "subtitle": "Créer une architecture qui résonne avec les personnes et les lieux",
+    "mission": "Selrahc Architects est un cabinet d'architecture contemporaine dédié à la création d'espaces qui inspirent, perdurent et transforment la façon dont les gens vivent leur environnement. Avec un portfolio couvrant des projets résidentiels, commerciaux et d'intérieur, nous apportons une approche holistique à chaque commande.",
+    "philosophy": "Notre philosophie est ancrée dans la conviction qu'une grande architecture émerge d'une compréhension profonde du contexte, de la lumière, des matériaux et de l'expérience humaine. Nous abordons chaque projet comme une opportunité unique de créer quelque chose de significatif.",
+    "team": "Notre équipe rassemble des expertises diverses en architecture, design d'intérieur et urbanisme, unies par un engagement commun envers l'excellence du design."
+  },
+  "contact": {
+    "title": "Nous Contacter",
+    "subtitle": "Nous serions ravis de connaître votre projet",
+    "name": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "message": "Message",
+    "submit": "Envoyer le Message",
+    "success": "Merci pour votre message. Nous vous répondrons sous peu.",
+    "address": "Johannesburg, Afrique du Sud",
+    "email_label": "Email",
+    "phone_label": "Téléphone"
+  },
+  "quote": {
+    "title": "Demander un Devis",
+    "subtitle": "Parlez-nous de votre projet et nous vous fournirons une proposition sur mesure",
+    "project_type": "Type de Projet",
+    "project_type_placeholder": "Sélectionnez le type de projet",
+    "residential": "Résidentiel",
+    "commercial": "Commercial",
+    "interior": "Architecture d'Intérieur",
+    "renovation": "Rénovation",
+    "other": "Autre",
+    "budget": "Budget Estimé",
+    "budget_placeholder": "Sélectionnez la fourchette budgétaire",
+    "budget_1": "Moins de R500,000",
+    "budget_2": "R500,000 - R2,000,000",
+    "budget_3": "R2,000,000 - R5,000,000",
+    "budget_4": "R5,000,000 - R10,000,000",
+    "budget_5": "R10,000,000+",
+    "location": "Lieu du Projet",
+    "description": "Description du Projet",
+    "description_placeholder": "Décrivez votre projet, y compris la taille, la portée et toute exigence spécifique...",
+    "submit": "Soumettre la Demande",
+    "success": "Merci pour votre demande. Nous examinerons votre projet et vous répondrons sous 48 heures."
+  },
+  "footer": {
+    "description": "Selrahc Architects est un cabinet d'architecture contemporaine créant des espaces qui inspirent, perdurent et transforment.",
+    "quick_links": "Liens Rapides",
+    "contact_info": "Contact",
+    "rights": "Tous droits réservés."
+  },
+  "language": "Langue",
+  "en": "English",
+  "fr": "Français"
+}

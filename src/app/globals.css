@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@200;300;400;500;600;700&family=DM+Mono:wght@300;400;500&display=swap');
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[#0a0a0a] text-stone-200 font-body antialiased;
+    font-feature-settings: 'kern' 1, 'liga' 1;
+  }
+
+  ::selection {
+    @apply bg-gold-500/30 text-white;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-charcoal-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-stone-600 rounded-full;
+  }
+}
+
+@layer components {
+  .container-premium {
+    @apply mx-auto max-w-[1440px] px-6 md:px-12 lg:px-20;
+  }
+
+  .text-display {
+    @apply font-display text-white tracking-tight;
+  }
+
+  .text-heading {
+    @apply font-display text-white font-light;
+  }
+
+  .text-body {
+    @apply font-body text-stone-300 font-light leading-relaxed;
+  }
+
+  .text-small {
+    @apply font-alt text-stone-400 text-xs uppercase tracking-[0.2em];
+  }
+
+  .link-underline {
+    @apply relative inline-block;
+  }
+
+  .link-underline::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-full h-[1px] bg-gold-500/50 origin-left transition-transform duration-500;
+    transform: scaleX(0);
+  }
+
+  .link-underline:hover::after {
+    transform: scaleX(1);
+  }
+
+  .gold-accent {
+    @apply text-gold-500;
+  }
+
+  .gold-border {
+    @apply border-gold-500/30;
+  }
+
+  .glass {
+    @apply bg-white/[0.03] backdrop-blur-xl border border-white/[0.06];
+  }
+
+  .image-mask {
+    @apply overflow-hidden;
+  }
+
+  .image-mask img {
+    @apply transition-all duration-700 ease-out;
+  }
+
+  .image-mask:hover img {
+    @apply scale-105;
+  }
+
+  .section-padding {
+    @apply py-24 md:py-32 lg:py-40;
+  }
+
+  .section-title {
+    @apply text-small mb-4 tracking-[0.3em];
+  }
+
+  .section-heading {
+    @apply text-display text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light leading-tight;
+  }
+
+  .parallax-container {
+    @apply relative overflow-hidden;
+  }
+
+  .parallax-inner {
+    @apply w-full h-full object-cover;
+    will-change: transform;
+  }
+
+  .btn-primary {
+    @apply relative inline-flex items-center gap-3 px-8 py-4 bg-gold-500 text-charcoal-900 font-alt text-xs uppercase tracking-[0.25em] font-medium;
+    @apply transition-all duration-500 ease-out;
+  }
+
+  .btn-primary:hover {
+    @apply bg-white text-charcoal-900;
+  }
+
+  .btn-outline {
+    @apply relative inline-flex items-center gap-3 px-8 py-4 border border-white/20 text-white font-alt text-xs uppercase tracking-[0.25em] font-medium;
+    @apply transition-all duration-500 ease-out;
+  }
+
+  .btn-outline:hover {
+    @apply border-white bg-white text-charcoal-900;
+  }
+
+  .page-enter {
+    animation: pageEnter 1.2s ease-out forwards;
+  }
+
+  @keyframes pageEnter {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .reveal-delay-1 { transition-delay: 0.1s; }
+  .reveal-delay-2 { transition-delay: 0.2s; }
+  .reveal-delay-3 { transition-delay: 0.3s; }
+  .reveal-delay-4 { transition-delay: 0.4s; }
+  .reveal-delay-5 { transition-delay: 0.5s; }
+
+  .grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2px;
+  }
+
+  .grid-gallery.featured {
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 400px 300px;
+  }
+
+  .grid-gallery.featured > *:first-child {
+    grid-row: 1 / -1;
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "process": "Process",
+    "about": "About",
+    "contact": "Contact",
+    "quote": "Request a Quote"
+  },
+  "hero": {
+    "title": "Contemporary Architecture",
+    "subtitle": "Designing spaces that inspire, endure, and transform",
+    "cta": "View Our Portfolio",
+    "contact": "Get in Touch"
+  },
+  "home": {
+    "featured_title": "Featured Projects",
+    "featured_subtitle": "A curated selection of our finest architectural works",
+    "services_title": "Our Expertise",
+    "services_subtitle": "Comprehensive architectural services from concept to completion",
+    "process_title": "Our Process",
+    "process_subtitle": "A collaborative journey from vision to reality",
+    "cta_title": "Let's Create Together",
+    "cta_subtitle": "Have a project in mind? We'd love to hear about it.",
+    "cta_button": "Start Your Project"
+  },
+  "portfolio": {
+    "title": "Our Portfolio",
+    "subtitle": "A collection of residential, commercial, and interior design projects",
+    "all": "All Projects",
+    "residential": "Residential",
+    "interior": "Interior Design",
+    "commercial": "Commercial",
+    "renovation": "Renovations",
+    "view_project": "View Project"
+  },
+  "project": {
+    "overview": "Overview",
+    "gallery": "Gallery",
+    "prev": "Previous Project",
+    "next": "Next Project",
+    "back": "Back to Portfolio"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Architectural excellence across every discipline",
+    "items": [
+      {
+        "title": "Architectural Design",
+        "desc": "Innovative design solutions tailored to each unique context, blending aesthetics with functionality."
+      },
+      {
+        "title": "Interior Architecture",
+        "desc": "Seamless integration of interior and exterior spaces, creating harmonious living environments."
+      },
+      {
+        "title": "Urban Planning",
+        "desc": "Strategic master planning for residential and commercial developments."
+      },
+      {
+        "title": "Renovation & Restoration",
+        "desc": "Breathing new life into existing structures while preserving architectural integrity."
+      },
+      {
+        "title": "Project Management",
+        "desc": "End-to-end project oversight ensuring timely delivery and uncompromising quality."
+      },
+      {
+        "title": "Sustainable Design",
+        "desc": "Environmentally responsible architecture that reduces ecological footprint."
+      }
+    ]
+  },
+  "process": {
+    "title": "Our Process",
+    "subtitle": "A refined approach to architectural excellence",
+    "steps": [
+      {
+        "title": "Discovery",
+        "desc": "We begin by understanding your vision, lifestyle, and requirements through in-depth consultation."
+      },
+      {
+        "title": "Concept Design",
+        "desc": "Translating ideas into architectural concepts through sketches, mood boards, and 3D visualizations."
+      },
+      {
+        "title": "Design Development",
+        "desc": "Refining the approved concept with detailed drawings, material selection, and technical specifications."
+      },
+      {
+        "title": "Documentation",
+        "desc": "Comprehensive construction documents, permits, and tender packages for seamless execution."
+      },
+      {
+        "title": "Construction",
+        "desc": "Active site supervision and coordination with contractors to ensure design fidelity."
+      },
+      {
+        "title": "Completion",
+        "desc": "Final walkthrough, handover, and ongoing support to ensure complete satisfaction."
+      }
+    ]
+  },
+  "about": {
+    "title": "About Selrahc Architects",
+    "subtitle": "Creating architecture that resonates with people and place",
+    "mission": "Selrahc Architects is a contemporary architecture practice dedicated to creating spaces that inspire, endure, and transform the way people experience their environment. With a portfolio spanning residential, commercial, and interior projects, we bring a holistic approach to every commission.",
+    "philosophy": "Our philosophy is rooted in the belief that great architecture emerges from a deep understanding of context, light, material, and human experience. We approach each project as a unique opportunity to create something meaningful.",
+    "team": "Our team brings together diverse expertise in architecture, interior design, and urban planning, united by a shared commitment to design excellence."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear about your project",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "Send Message",
+    "success": "Thank you for your message. We will get back to you shortly.",
+    "address": "Johannesburg, South Africa",
+    "email_label": "Email",
+    "phone_label": "Phone"
+  },
+  "quote": {
+    "title": "Request a Quote",
+    "subtitle": "Tell us about your project and we'll provide a tailored proposal",
+    "project_type": "Project Type",
+    "project_type_placeholder": "Select project type",
+    "residential": "Residential",
+    "commercial": "Commercial",
+    "interior": "Interior Design",
+    "renovation": "Renovation",
+    "other": "Other",
+    "budget": "Estimated Budget",
+    "budget_placeholder": "Select budget range",
+    "budget_1": "Under R500,000",
+    "budget_2": "R500,000 - R2,000,000",
+    "budget_3": "R2,000,000 - R5,000,000",
+    "budget_4": "R5,000,000 - R10,000,000",
+    "budget_5": "R10,000,000+",
+    "location": "Project Location",
+    "description": "Project Description",
+    "description_placeholder": "Describe your project, including size, scope, and any specific requirements...",
+    "submit": "Submit Request",
+    "success": "Thank you for your inquiry. We will review your project and get back to you within 48 hours."
+  },
+  "footer": {
+    "description": "Selrahc Architects is a contemporary architecture practice creating spaces that inspire, endure, and transform.",
+    "quick_links": "Quick Links",
+    "contact_info": "Contact",
+    "rights": "All rights reserved."
+  },
+  "language": "Language",
+  "en": "English",
+  "fr": "Français"
+}
