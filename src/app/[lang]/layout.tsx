@@ -31,6 +31,49 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   }
 }
 
+function JsonLd({ lang }: { lang: string }) {
+  const baseUrl = 'https://selrahcarchitects.com'
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        name: 'Selrahc Architects',
+        url: baseUrl,
+        author: {
+          '@type': 'Person',
+          name: 'Stopher Malik',
+        },
+        creator: {
+          '@type': 'Organization',
+          name: 'SMK Web Design',
+          url: 'https://stopher-malik.co.za',
+        },
+      },
+      {
+        '@type': 'WebPage',
+        url: `${baseUrl}/${lang}`,
+        author: {
+          '@type': 'Person',
+          name: 'Stopher Malik',
+        },
+        creator: {
+          '@type': 'Organization',
+          name: 'SMK Web Design',
+          url: 'https://stopher-malik.co.za',
+        },
+      },
+    ],
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  )
+}
+
 export default function LangLayout({ children, params }: Props) {
   const { lang } = params
 
@@ -42,6 +85,7 @@ export default function LangLayout({ children, params }: Props) {
 
   return (
     <ClientLayout lang={lang} dict={dict}>
+      <JsonLd lang={lang} />
       {children}
     </ClientLayout>
   )
